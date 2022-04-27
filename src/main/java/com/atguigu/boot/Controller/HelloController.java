@@ -13,6 +13,7 @@ public class HelloController {
 
     @RequestMapping("/gitTest")
     public String gitTest(){
+        String s="pull test!";
         return "hello geiTest";
     }
 }
