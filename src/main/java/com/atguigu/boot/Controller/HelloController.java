@@ -10,4 +10,9 @@ public class HelloController {
     public String hello(){
         return  "hello spring boot 2";
     }
+
+    @RequestMapping("/gitTest")
+    public String gitTest(){
+        return "hello geiTest";
+    }
 }
